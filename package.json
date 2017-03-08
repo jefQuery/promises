@@ -10,7 +10,7 @@
   },
   "scripts": {
     "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
-    "test": "mocha test/index.js --bail",
+    "test": "mocha test/index.js --bail --watch",
     "lint": "eslint ./"
   },
   "dependencies": {
